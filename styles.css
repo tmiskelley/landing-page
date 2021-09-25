@@ -17,6 +17,11 @@ h1 {
     margin: 0;
 }
 
+h2 {
+    margin: 0;
+    margin-bottom: 3rem;
+}
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -28,7 +33,6 @@ a {
 }
 
 p {
-    color: var(--secondary-white);
     margin: 0;
     padding: 0;
 }
@@ -78,6 +82,7 @@ button {
 }
 
 .left-box {
+    color: var(--secondary-white);
     margin: 20px;
     margin-left: 0;
 }
@@ -91,4 +96,63 @@ button {
     flex: 0 0 auto;
     margin: 1.5rem;
     margin-right: 0;
+}
+
+.middle-container {
+    display: flex;
+    justify-content: center;
+    margin: 3rem 0;
+}
+
+.main2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.small-image {
+    width: 125px;
+    height: 125px;
+    border: 3px solid var(--blue);
+    border-radius: 8px;
+    flex: 0 0 auto;
+}
+
+.boxes {
+    display: flex;
+    gap: 2rem;
+}
+
+.box {
+    width: 150px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.quote {
+    background-color: lightgray;
+    color: var(--dark-blue);
+    font-weight: lighter;
+    font-size: 24px;
+    font-style: italic;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 25px;
+    padding: 8rem;
+}
+
+.box-text {
+    text-align: center;
+}
+
+.q-container {
+    display: flex;
+}
+
+.quote-special {
+    font-size: 18px;
 }
