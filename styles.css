@@ -22,6 +22,10 @@ h2 {
     margin-bottom: 3rem;
 }
 
+h3 {
+    margin: 0;
+}
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -155,4 +159,22 @@ button {
 
 .quote-special {
     font-size: 18px;
+}
+
+.sign-up {
+    background-color: var(--blue);
+    color: var(--main-white);
+    max-width: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    margin: 4rem auto;
+    padding: 3rem;
+}
+
+.button-special {
+    border: 1.5px solid var(--main-white);
+    margin: 0;
+    padding: 6px 12px;
 }
